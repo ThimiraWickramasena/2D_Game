@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dragon run</title>
+        <link rel="Icon" href="icon1.png"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body class="body" onkeyup="key(event);" >
+
+        <div class="hpage" id="hpage">
+            
+            <img class="drimg"   src="dragonlogo.png"/>
+            
+            <button class="hstartbutton" onclick="startbutton();">
+                <img src="startbutton.webp"/>
+            </button>
+            <button class="menubutton" id="menubutton" onclick="menubutton();"> 
+                <img class="menubuttonimg" src="menubutton.webp" />
+            </button>
+           
+            <button class="soundb" id="soundb" onclick="sbutton();">
+            <img class="soundimg" id="soundimg" src="soundable.png" />
+            </button>
+            <div class="flydragon" id="flydragon">
+                <img src="dragonfly.gif" />
+            </div>
+            
+
+        </div>
+
+        <div class="menuin" id="menuin">
+            <div class="menudiv" onclick="startbutton();">
+              <button class="menubuttonin">Play</button>
+            </div>
+            <div class="menudiv" onclick="soundopen();">
+              <button class="menubuttonin">Sound</button> 
+            </div>
+            <div class="menudiv" onclick="gamepalyexitbutton2();">
+              <button class="menubuttonin">Gameplay</button>
+            </div>
+            <div class="menudiv" onclick="exitbutton();">
+              <button class="menubuttonin" >Exit</button>
+            </div>
+        </div>
+
+        <div class="soundmenu" id="soundmenu">
+            <div class="soundmenudiv" >
+              <button class="soundmenubutton" onclick="sbutton1();">ON</button>
+            </div>
+            <div class="soundmenudiv" onclick="sbutton2();">
+              <button class="soundmenubutton">OFF</button> 
+            </div> 
+        </div>
+        <div class="gameplaymenu" id="gameplaymenu">
+            
+            <p class="gpmptag">Run : Enter key</p>
+            <p class="gpmptag">Jump : Space key</p>
+            <div class="gmpexit" onclick="gamepalyexitbutton();">
+                <button class="gamepalyexit" >Exit</button>
+              </div>
+        </div>
+        
+        
+       
+        <div class="b" id="b" >
+                <img class="boy" id="boy" src="Run (1).png"/>
+                <p class="score" id="score">0</p>
+                <img class="hart" src="healthimg.png" >
+                <div class="halthbar">
+                    <div class="health2" id="health2">
+
+                    </div>
+                </div>
+                <button class="homebuttonn" onclick="homegoing();" >Home</button>
+                
+                    
+                
+        </div>
+        <div class="end" id="end">
+            <div  >Game over!</div>
+            <div>Your Score</div>
+            <div id="endscore">0</div>
+            <button class="btn" onclick="re();">Try again</button>
+
+        </div>
+
+        <div class="level1cdiv" id="level1cdiv">
+            <p class="level1p" style="margin-top: 30px;">Level 1 Complete</p>
+            <img class="level1img" src="200w (6).webp"/>
+            <p class="level1p">Score</p>
+            <div class="level1p" id="endscore">2005</div>
+            <button class="level1button" onclick="level2();">Play level 2</button>
+        </div>
+        <div class="updated" id="updated">
+            <p class="upp">oops !!</p>
+            <p class="upp">Level 2 commig soon</p>
+            <img class="uppimg" src="loader-optimised-dribbble.gif" />
+            <button class="uppbtn" onclick="uppbtn();">Play level 1</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

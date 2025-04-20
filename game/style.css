@@ -1,0 +1,373 @@
+.body{
+    margin: 0px;
+}
+.b{
+    background-image: url("background.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    background-repeat: repeat-x;
+    visibility: hidden;
+}
+
+.hpage{
+    background-image: url("hbackgrund.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position-x: -20px;
+    overflow: hidden;
+    position: absolute;
+    
+   
+}
+
+.drimg{
+    position: absolute;
+    margin-left:590px;
+    margin-top: 0px;
+    width: 400px; 
+    overflow: hidden; 
+}
+.hstartbutton{
+    overflow: hidden;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    margin-left: 680px;
+    margin-top: 390px;
+}
+.menubutton{
+    position: absolute;
+    overflow: hidden;
+    background-color: transparent;
+    align-items: center;
+    border: none;
+    margin-top: 10px;
+   
+}
+.menubuttonimg{
+    width: 150px;
+}
+.soundb{
+    overflow: hidden;
+    position: absolute;
+    border-radius: 200px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(205, 221, 221);
+    margin-left: 1450px;
+    margin-top: 0px;
+    
+}
+.soundimg{
+    width: 100px;
+    margin-left: -24px;
+    margin-top: -20px;
+    
+}
+.flydragon{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 550px;
+    margin-left: -400px;
+}
+
+.menuin{
+    position: absolute;
+    
+    width: 500px;
+    height: 600px;
+    background-image: url("manuinimg.jpg");
+    margin-left: 550px;
+    margin-top: 80px;
+    border: solid;
+    border-width: 10px;
+    border-color: rgba(22, 10, 10, 0.537);
+    border-radius: 40px;
+     visibility: hidden; 
+    
+}
+
+.gameplaymenu{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-image:url("scifi_main_menu.jpg");
+    margin-left: 720px;
+    margin-top: 200px;
+    border-radius: 30px;
+    border: 10px solid;
+    border-color: rgba(0, 0, 0, 0.275);
+    visibility: hidden;
+}
+.gpmptag{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: "Consolas";
+    margin-top: 50px;
+}
+.gmpexit{
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    width: 80px;
+    height: 60px;
+    background-image: url("buttonbackground.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.gamepalyexit{
+    margin-left: 0px;
+    font-size: 30px;
+    background-color: transparent;
+    font-family: "Consolas";
+    color: rgb(179, 216, 216);
+    border: none;
+    
+}
+
+.soundmenu{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-image:url("scifi_main_menu.jpg");
+    margin-left: 720px;
+    margin-top: 200px;
+    border-radius: 30px;
+    border: 10px solid;
+    border-color: rgba(0, 0, 0, 0.275);
+    visibility: hidden; 
+}
+.soundmenubutton{
+    margin-left: 0px;
+    font-size: 30px;
+    background-color: transparent;
+    font-family: "Consolas";
+    color: rgb(179, 216, 216);
+    border: none;
+    font-weight: bold;
+}
+.soundmenudiv{
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: aliceblue;
+    width: 100px;
+    height: 60px;
+    background-image: url("sbuttonimg.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    
+}
+
+.menubuttonin{
+    margin-left: 0px;
+    font-size: 30px;
+    background-color: transparent;
+    font-family: "Showcard Gothic";
+    color: rgb(179, 216, 216);
+    border: none;
+    
+}
+
+.menudiv{
+    margin-left: 100px;
+    margin-top: 60px;
+    background-color: aliceblue;
+    width: 300px;
+    height: 70px;
+    background-image: url("buttonbackground.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+
+
+.f{
+    position: absolute;
+    height: 150px;
+    margin-top: 500px;
+}
+
+.boy{
+    position: absolute;
+    height: 250px;
+    margin-top: 400px;
+}
+.score{
+    position: absolute;
+    font-size: 80px;
+    font-family: "Chiller";
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.end{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    position: absolute;
+    font-size: 58px;
+    color: rgb(226, 185, 185);
+    font-family: "Showcard Gothic";
+    font-weight: bold;
+    margin-left: 450px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-image: url("manuinimg.jpg");
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+
+    visibility: hidden;
+
+}
+.btn{
+    width: 500px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Bahnschrift";
+    border: none;
+    border-radius: 30px;
+}
+
+.level1cdiv{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    background-color: aquamarine;
+    margin-left: 530px;
+    margin-top: 50px;
+    border-radius: 40px;
+    border: 10px solid;
+    border-color: rgba(0, 0, 0, 0.4);
+    background-image: url("manuinimg.jpg");
+    visibility: hidden;
+}
+.level1p{
+    
+    font-size: 40px;
+    font-family: "Snap ITC";
+    color: aliceblue;
+    text-align: center;
+    margin-top: -30px;
+    
+}
+.level1img{
+    width: 400px;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+.level1button{
+    width: 400px;
+    height: 60px;
+    font-size: 40px;
+    font-family: "Showcard Gothic";
+    background-image: url("buttonbackground.png");
+    border: 5px solid;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.halthbar{
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    background-color: rgba(145, 86, 86, 0.732);
+    margin-left: 1250px;
+    overflow: hidden;
+    border: 2px solid;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.hart{
+    position: absolute;
+    width: 50px;
+    margin-left: 1196px;
+    margin-top: 5px;
+}
+.health2{
+    position: absolute;
+    overflow: hidden;
+    width: 260px;
+    height: 40px;
+    background-color: rgb(255, 3, 3);
+    
+    margin-top: 0px;
+    margin-left: 2px;
+    
+}
+
+.homebuttonn{
+    position: absolute;
+    overflow: hidden;
+    
+    width: 60px;
+    height: 30px;
+    margin-left: 200px;
+    background-color: rgba(50, 208, 45, 0.807);
+    
+    margin-top: 60px;
+    margin-left: 1450px;
+    border-radius: 20px;
+    color: rgb(249, 249, 249);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Consolas";
+    border: none;
+}
+
+.updated{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("buttonbackground.png");
+    margin-top: 100px;
+    margin-left: 500px;
+    border-radius: 40px;
+    border: 10px solid;
+    border-color: rgba(255, 255, 255, 0.37);
+    visibility: hidden;
+}
+.upp{
+    font-size: 40px;
+    font-family: "Showcard Gothic";
+    text-align: center;
+    color: rgb(175, 161, 143);
+}
+.uppimg{
+    width: 400px;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+.uppbtn{
+    width: 300px;
+    margin-top: -100px;
+    height: 50px;
+    background-color: rgba(115, 247, 82, 0.577);
+    margin-left: 100px;
+    border-radius: 30px;
+    border: none;
+    font-size: 30px;
+    font-family: "Britannic Bold";
+    font-weight: bold;
+    
+}
